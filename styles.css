@@ -1,3 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+h1,
+h2 {
+  font-family: Yeseva One, serif;
+}
+
+p,
+button {
+  font-family: Josefin Sans, sans-serif;
+}
