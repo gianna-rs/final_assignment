@@ -3,11 +3,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: Yeseva One, serif;
 }
 
 p,
-button {
+button,
+li {
   font-family: Josefin Sans, sans-serif;
+}
+#hero-image {
+  max-width: 50%;
 }
