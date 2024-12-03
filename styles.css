@@ -9,10 +9,25 @@ h3 {
 }
 
 p,
-button,
+nav,
 li {
   font-family: Josefin Sans, sans-serif;
 }
 #hero-image {
   max-width: 50%;
+}
+
+#countdown-clock {
+}
+
+.ticker {
+  border: 2px solid black;
+  width: 4rem;
+}
+
+#countdown-numbers {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  text-align: center;
 }
