@@ -39,26 +39,40 @@ header {
 .nav-button {
   padding: 1rem;
   border: 1px solid black;
+  border-radius: 5px;
   text-decoration: none;
   background-color: var(--christmas-beige);
   color: var(--christmas-green);
   margin: 0.5rem;
 }
 
-main {
-  margin: 1rem;
-}
-
-#hero-image {
-  max-width: 50%;
-}
-
 #countdown-clock {
-  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--christmas-sage);
+  padding: 0 2rem;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.ornament {
+  max-width: 25%;
+}
+
+#countdown-main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
 }
 
 .ticker {
   border: 2px solid black;
+  border-radius: 5px;
   width: 4rem;
 }
 
@@ -67,4 +81,12 @@ main {
   flex-direction: row;
   gap: 1rem;
   text-align: center;
+}
+
+main {
+  margin: 1rem;
+}
+
+#hero-image {
+  max-width: 50%;
 }
