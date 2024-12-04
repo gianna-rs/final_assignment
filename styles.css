@@ -103,10 +103,37 @@ main {
   padding: 0 2rem;
 }
 
+#hero-content section h2 {
+  font-size: 1.65rem;
+}
+
+#hero-content section p {
+  font-size: 1.1rem;
+}
+
 #hero-image {
   max-width: 40%;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 2px var(--christmas-brown);
+}
+
+.recipe-name {
+  font-size: 1.65rem;
+}
+
+.recipe-picture {
+  max-width: 40%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 2px var(--christmas-brown);
+}
+
+.recipe {
+  display: flex;
+  flex-direction: row;
+}
+
+.instructions {
+  padding: 1rem 2rem;
 }
 
 footer {
@@ -114,9 +141,6 @@ footer {
   color: var(--christmas-beige);
   padding: 1rem;
   text-align: center;
-  /* position: fixed;
-  width: 100%;
-  bottom: 0; */
 }
 
 #email {
