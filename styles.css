@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+  --christmas-red: #7b0a0a;
+  --christmas-green: #213c18;
+  --christmas-sage: #668c6f;
+  --christmas-brown: #baa58c;
+  --christmas-beige: #e5d5bb;
+}
 
 body {
   margin: 0;
+  background-color: var(--christmas-beige);
 }
 
 h1,
@@ -23,8 +31,8 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #7b0a0a;
-  color: #e5d5bb;
+  background-color: var(--christmas-red);
+  color: var(--christmas-beige);
   padding: 0 1rem;
 }
 
@@ -32,9 +40,13 @@ header {
   padding: 1rem;
   border: 1px solid black;
   text-decoration: none;
-  background-color: #e5d5bb;
-  color: #213c18;
+  background-color: var(--christmas-beige);
+  color: var(--christmas-green);
   margin: 0.5rem;
+}
+
+main {
+  margin: 1rem;
 }
 
 #hero-image {
@@ -42,6 +54,7 @@ header {
 }
 
 #countdown-clock {
+  margin: 1rem;
 }
 
 .ticker {
