@@ -42,8 +42,7 @@ nav {
   display: flex;
   flex-direction: row;
 }
-
-.nav-button {
+nav a {
   padding: 1rem;
   border: 1px solid black;
   border-radius: 5px;
@@ -105,6 +104,7 @@ h2 {
   margin: 2rem;
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 #hero-content section {
@@ -136,11 +136,14 @@ h2 {
   max-width: 50%;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 2px var(--christmas-brown);
+  object-fit: contain;
 }
 
 .recipe {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  margin: 2rem;
 }
 
 .instructions {
@@ -158,25 +161,34 @@ footer {
   color: var(--christmas-brown);
 }
 
-.home_button {
+.homeButton {
   #home {
-    background-color: var(--christmas-brown);
+    background-color: initial;
   }
 }
 
-.pistachio_button {
+.pistachioButton {
+  #home {
+    background-color: var(--christmas-beige);
+  }
   #pistachio {
     background-color: var(--christmas-brown);
   }
 }
 
-.crack_button {
+.crackButton {
+  #home {
+    background-color: var(--christmas-beige);
+  }
   #crack {
     background-color: var(--christmas-brown);
   }
 }
 
-.melt_button {
+.meltButton {
+  #home {
+    background-color: var(--christmas-beige);
+  }
   #melt {
     background-color: var(--christmas-brown);
   }
@@ -213,5 +225,13 @@ footer {
   }
   .ornament {
     display: none;
+  }
+  .recipe {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .recipe-picture {
+    max-width: 80%;
   }
 }

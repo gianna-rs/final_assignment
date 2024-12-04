@@ -1,36 +1,32 @@
 home.addEventListener("click", function () {
-  clearInterval(myInterval);
-  document.body.classList.add("home_button");
-  document.body.classList.remove("pistachio_button");
-  document.body.classList.remove("crack_button");
-  document.body.classList.remove("melt_button");
+  document.body.classList.add("homeButton");
+  document.body.classList.remove("pistachioButton");
+  document.body.classList.remove("crackButton");
+  document.body.classList.remove("meltButton");
 });
 
 pistachio.addEventListener("click", function () {
-  clearInterval(myInterval);
-  document.body.classList.add("pistachio_button");
-  document.body.classList.remove("home_button");
-  document.body.classList.remove("crack_button");
-  document.body.classList.remove("melt_button");
+  document.body.classList.add("pistachioButton");
+  document.body.classList.remove("homeButton");
+  document.body.classList.remove("crackButton");
+  document.body.classList.remove("meltButton");
 });
 
 crack.addEventListener("click", function () {
-  clearInterval(myInterval);
-  document.body.classList.add("crack_button");
-  document.body.classList.remove("pistachio_button");
-  document.body.classList.remove("home_button");
-  document.body.classList.remove("melt_button");
+  document.body.classList.add("crackButton");
+  document.body.classList.remove("pistachioButton");
+  document.body.classList.remove("homeButton");
+  document.body.classList.remove("meltButton");
 });
 
 melt.addEventListener("click", function () {
-  clearInterval(myInterval);
-  document.body.classList.add("melt_button");
-  document.body.classList.remove("pistachio_button");
-  document.body.classList.remove("crack_button");
-  document.body.classList.remove("home_button");
+  document.body.classList.add("meltButton");
+  document.body.classList.remove("pistachioButton");
+  document.body.classList.remove("crackButton");
+  document.body.classList.remove("homeButton");
 });
 
-let myInterval = setInterval(function () {
+setInterval(function () {
   const date = new Date();
   const christmasDay = new Date(2024, 11, 25, 0, 0, 0);
 
