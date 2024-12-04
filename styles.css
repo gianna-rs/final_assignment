@@ -55,7 +55,7 @@ header {
   justify-content: space-between;
 }
 
-h2 {
+#countdown-header {
   margin-top: 0;
   text-align: center;
 }
@@ -87,6 +87,31 @@ main {
   margin: 1rem;
 }
 
+#hero-content {
+  display: flex;
+  flex-direction: row;
+}
+
+#hero-content section {
+  text-align: center;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+h2 {
+  margin-top: 0;
+}
+
 #hero-image {
-  max-width: 50%;
+  max-width: 40%;
+}
+
+footer {
+  background-color: var(--christmas-red);
+  color: var(--christmas-beige);
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
