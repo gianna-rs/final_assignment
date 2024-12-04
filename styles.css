@@ -12,6 +12,8 @@
 body {
   margin: 0;
   background-color: var(--christmas-beige);
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -36,6 +38,11 @@ header {
   padding: 0 2rem;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
 .nav-button {
   padding: 1rem;
   border: 1px solid black;
@@ -58,9 +65,10 @@ h2 {
   display: flex;
   flex-direction: row;
   background-color: var(--christmas-sage);
-  padding: 0 2rem;
+  padding: 0 2rem 1rem 2rem;
   margin-top: 1rem;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 #countdown-header {
@@ -70,6 +78,7 @@ h2 {
 
 .ornament {
   max-width: 25%;
+  object-fit: contain;
 }
 
 #countdown-main {
@@ -92,11 +101,8 @@ h2 {
   justify-content: center;
 }
 
-main {
-  margin: 2rem;
-}
-
 #hero-content {
+  margin: 2rem;
   display: flex;
   flex-direction: row;
 }
@@ -116,9 +122,10 @@ main {
 }
 
 #hero-image {
-  max-width: 40%;
+  max-width: 60%;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 2px var(--christmas-brown);
+  object-fit: contain;
 }
 
 .recipe-name {
@@ -126,7 +133,7 @@ main {
 }
 
 .recipe-picture {
-  max-width: 40%;
+  max-width: 50%;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 2px var(--christmas-brown);
 }
@@ -172,5 +179,39 @@ footer {
 .melt_button {
   #melt {
     background-color: var(--christmas-brown);
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  header {
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #hero-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  #hero-image {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #countdown-clock {
+    justify-content: center;
+    align-items: center;
+  }
+  .ornament {
+    display: none;
   }
 }
