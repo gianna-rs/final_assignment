@@ -46,6 +46,10 @@ header {
   margin: 0.5rem;
 }
 
+#home {
+  background-color: var(--christmas-brown);
+}
+
 h2 {
   margin-top: 0;
 }
@@ -145,4 +149,28 @@ footer {
 
 #email {
   color: var(--christmas-brown);
+}
+
+.home_button {
+  #home {
+    background-color: var(--christmas-brown);
+  }
+}
+
+.pistachio_button {
+  #pistachio {
+    background-color: var(--christmas-brown);
+  }
+}
+
+.crack_button {
+  #crack {
+    background-color: var(--christmas-brown);
+  }
+}
+
+.melt_button {
+  #melt {
+    background-color: var(--christmas-brown);
+  }
 }
