@@ -33,7 +33,7 @@ header {
   align-items: center;
   background-color: var(--christmas-red);
   color: var(--christmas-beige);
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .nav-button {
@@ -44,6 +44,10 @@ header {
   background-color: var(--christmas-beige);
   color: var(--christmas-green);
   margin: 0.5rem;
+}
+
+h2 {
+  margin-top: 0;
 }
 
 #countdown-clock {
@@ -81,10 +85,11 @@ header {
   flex-direction: row;
   gap: 1rem;
   text-align: center;
+  justify-content: center;
 }
 
 main {
-  margin: 1rem;
+  margin: 2rem;
 }
 
 #hero-content {
@@ -98,12 +103,10 @@ main {
   padding: 0 2rem;
 }
 
-h2 {
-  margin-top: 0;
-}
-
 #hero-image {
   max-width: 40%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 2px var(--christmas-brown);
 }
 
 footer {
@@ -111,7 +114,11 @@ footer {
   color: var(--christmas-beige);
   padding: 1rem;
   text-align: center;
-  position: fixed;
+  /* position: fixed;
   width: 100%;
-  bottom: 0;
+  bottom: 0; */
+}
+
+#email {
+  color: var(--christmas-brown);
 }
