@@ -230,8 +230,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1rem 0.5rem;
   }
   .recipe-picture {
     max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #countdown-numbers {
   }
 }
