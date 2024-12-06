@@ -52,7 +52,16 @@ nav a {
   margin: 0.5rem;
 }
 
-#home {
+#home-nav #home {
+  background-color: var(--christmas-brown);
+}
+#crack-nav #crack {
+  background-color: var(--christmas-brown);
+}
+#melt-nav #melt {
+  background-color: var(--christmas-brown);
+}
+#pistachio-nav #pistachio {
   background-color: var(--christmas-brown);
 }
 
@@ -159,39 +168,6 @@ footer {
 
 #email {
   color: var(--christmas-brown);
-}
-
-.homeButton {
-  #home {
-    background-color: initial;
-  }
-}
-
-.pistachioButton {
-  #home {
-    background-color: var(--christmas-beige);
-  }
-  #pistachio {
-    background-color: var(--christmas-brown);
-  }
-}
-
-.crackButton {
-  #home {
-    background-color: var(--christmas-beige);
-  }
-  #crack {
-    background-color: var(--christmas-brown);
-  }
-}
-
-.meltButton {
-  #home {
-    background-color: var(--christmas-beige);
-  }
-  #melt {
-    background-color: var(--christmas-brown);
-  }
 }
 
 @media screen and (max-width: 1250px) {
