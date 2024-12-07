@@ -215,6 +215,7 @@ footer {
 
 @media screen and (max-width: 400px) {
   #countdown-numbers {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 4rem 4rem;
   }
 }
